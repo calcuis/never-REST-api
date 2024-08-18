@@ -41,7 +41,7 @@ UUID Generation:
 - Each item now has a uid field, which is a UUID string generated using `uuid.uuid4()`. This ensures a unique identifier for each item.
 
 Endpoints:
-- The `GET`, `POST`, and `DELETE` methods are now based on the uid instead of an integer id.
+- The `GET`, `POST`, and `DELETE` methods are now based on the uid instead of an integer id; awesome🎉
 
 try it out by:
 ```
