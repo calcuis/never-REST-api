@@ -12,7 +12,7 @@ py test1.py
 #### test2.py > GET, POST, DELETE methods
 Level 2 API will allow you to perform basic operations (`GET`, `POST`, `DELETE`) on a list of items.
 
-You can use tools like curl or Postman to test the API; example below is `curl` under your own terminal/console.
+You can use tools like curl or Postman to test the API; examples below are `curl` under your own terminal/console.
 
 Get all items (`GET /items`):
 ```
