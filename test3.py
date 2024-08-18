@@ -17,7 +17,7 @@ def get_items():
 
 # GET method to retrieve a single item by UID
 @app.route('/items/<id>', methods=['GET'])
-def get_item(uid):
+def get_item(id):
     item = next((item for item in items if item["id"] == id), None)
     if item is not None:
         return jsonify(item)
