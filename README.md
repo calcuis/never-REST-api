@@ -24,7 +24,7 @@ curl http://127.0.0.1:5000/items/1
 ```
 Add a new item (`POST /items`):
 ```
-- curl -X POST -H "Content-Type: application/json" -d "{\"name\": \"New Item\"}" http://127.0.0.1:5000/items
+curl -X POST -H "Content-Type: application/json" -d "{\"name\": \"New Item\"}" http://127.0.0.1:5000/items
 ```
 Delete an item by ID (`DELETE /items/<id>`):
 ```
