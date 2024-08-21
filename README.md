@@ -48,8 +48,8 @@ try it out by:
 py test3.py
 ```
 
-### step-by-step - make it into production (example)
-To deploy your Flask application to production on an Ubuntu server, you'll typically want to use a production-grade web server like Gunicorn along with a reverse proxy like Nginx. Here's a step-by-step guide to getting your Flask application into production on an Ubuntu server:
+### step-by-step: make it into production (example)
+To deploy your `Flask` application to production on an `Ubuntu` server, you'll typically want to use a production-grade web server like `Gunicorn` along with a reverse proxy like `Nginx`. Here's a step-by-step guide to getting your `Flask` application into production on an `Ubuntu` server:
 
 #### Step 1: Set Up Your Ubuntu Server
 Update your server:
